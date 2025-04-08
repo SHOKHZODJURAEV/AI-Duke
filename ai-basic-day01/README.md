@@ -17,4 +17,9 @@ jupyter lab
 
 Start Jupyter Notebook:
 The Notebook uses a single-document interface, allowing you to edit and view one notebook at a time.
-jupyter notebookOpenAI official direct link (developers, or plus members) • https://platform.openai.com/docs/quickstart
+jupyter notebook
+
+OpenAI official direct link (developers, or plus members) 
+• https://platform.openai.com/docs/quickstart
+
+# Hellow World
