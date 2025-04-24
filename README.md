@@ -68,6 +68,14 @@ This folder focuses on model evaluation and deployment. Topics include:
 - Preparing models for deployment.
 - Testing models with real-world data.
 
+## Folder: ai-basic-day09
+
+This folder focuses on reinforcement learning basics. Topics include:
+
+- Understanding the principles of reinforcement learning.
+- Implementing simple RL algorithms like Q-learning.
+- Exploring environments using OpenAI Gym.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine.
