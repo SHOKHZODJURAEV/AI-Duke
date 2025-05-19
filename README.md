@@ -76,6 +76,15 @@ This folder focuses on reinforcement learning basics. Topics include:
 - Implementing simple RL algorithms like Q-learning.
 - Exploring environments using OpenAI Gym.
 
+## Folder: ai-basic-day10
+
+This folder focuses on text generation using pre-trained GPT-2 models. Topics include:
+
+- Loading and fine-tuning GPT-2 models for Chinese text generation.
+- Implementing custom datasets for training.
+- Generating various types of text, such as poems, lyrics, and ancient Chinese prose.
+- Training models with custom collate functions and PyTorch DataLoaders.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine.
