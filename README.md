@@ -85,6 +85,15 @@ This folder focuses on text generation using pre-trained GPT-2 models. Topics in
 - Generating various types of text, such as poems, lyrics, and ancient Chinese prose.
 - Training models with custom collate functions and PyTorch DataLoaders.
 
+## Folder: ai-basic-day11
+
+This folder focuses on advanced text generation techniques using GPT-2 models. Topics include:
+
+- Generating structured text such as Chinese ancient poetry.
+- Implementing custom sampling strategies for text generation.
+- Fine-tuning models for specific text formats and styles.
+- Exploring recursive generation methods for controlled output.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine.
