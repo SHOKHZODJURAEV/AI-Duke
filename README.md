@@ -94,6 +94,15 @@ This folder focuses on advanced text generation techniques using GPT-2 models. T
 - Fine-tuning models for specific text formats and styles.
 - Exploring recursive generation methods for controlled output.
 
+## Folder: ai-basic-day12
+
+This folder focuses on dataset handling and text generation using PyTorch. Topics include:
+
+- Creating custom datasets for text-based tasks.
+- Loading and preprocessing text data for training.
+- Implementing PyTorch DataLoaders for efficient batching.
+- Exploring text generation techniques with custom datasets.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine.
