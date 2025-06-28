@@ -103,6 +103,15 @@ This folder focuses on dataset handling and text generation using PyTorch. Topic
 - Implementing PyTorch DataLoaders for efficient batching.
 - Exploring text generation techniques with custom datasets.
 
+## Folder: ai-basic-day13
+
+This folder focuses on checkpoint handling and trainer state analysis. Topics include:
+
+- Understanding and interpreting trainer state JSON files.
+- Analyzing training metrics such as loss, learning rate, and gradient norms.
+- Managing checkpoints for model training and evaluation.
+- Exploring evaluation metrics and runtime statistics for model performance.
+
 ## How to Use This Repository
 
 1. Clone the repository to your local machine.
