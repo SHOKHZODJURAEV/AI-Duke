@@ -1,0 +1,13 @@
+Open-WebUI is an **open-source, modern web-based user interface** that’s often used to interact with **large language models (LLMs)** like Ollama, LM Studio, or local deployments of models (e.g., LLaMA, Mistral, Qwen, etc.).
+
+Here’s what it’s used for:
+
+* **Chat interface** → Provides a clean, ChatGPT-like UI for interacting with AI models.
+* **Model management** → Lets you load, switch, and run local models easily.
+* **Multi-model support** → Works with different backends (Ollama, Hugging Face models, LM Studio, etc.).
+* **Customization** → Offers settings to adjust parameters like temperature, max tokens, and system prompts.
+* **Multi-user support** → Can be used as a shared interface where multiple users interact with models.
+* **Extensibility** → Allows developers to extend it with plugins or integrate it into other apps.
+
+In short, Open-WebUI is like a **self-hosted alternative to ChatGPT’s web UI**, but you control the models, data, and environment (local or cloud).
+
