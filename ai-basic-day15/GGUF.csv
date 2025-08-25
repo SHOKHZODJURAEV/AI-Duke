@@ -1,0 +1,10 @@
+Here’s the English translation of your text:
+
+**What is GGUF**
+The full name of the GGUF format is *GPT-Generated Unified Format*.
+When talking about GGUF, its predecessor **GGML** (*GPT-Generated Model Language*)
+must be mentioned. GGML is a tensor library specifically designed for machine learning, 
+first introduced in October 2022. Its goal was to provide a single-file sharable format
+that is easy to use for inference across different GPU and CPU architectures. However, 
+during subsequent development, issues such as lack of flexibility, compatibility problems, 
+and difficulties in maintenance were encountered.

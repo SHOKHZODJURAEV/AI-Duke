@@ -1,0 +1,34 @@
+**LlamaIndex (formerly GPT Index)** is an **AI data framework** that helps you connect **large language models (LLMs)** like GPT, LLaMA, or other open-source models to your **own data sources**.
+
+Here’s what it’s used for:
+
+* **Data Ingestion & Indexing**
+  It lets you load data from many sources (databases, APIs, PDFs, Notion, Slack, documents, etc.) and structure it into indices that an LLM can efficiently query.
+
+* **Context Management**
+  Instead of dumping huge amounts of text into a model, LlamaIndex organizes information into chunks, summaries, and embeddings so the model can retrieve just what it needs for a response.
+
+* **Retrieval-Augmented Generation (RAG)**
+  LlamaIndex powers RAG pipelines—meaning you can ask questions in natural language, and the framework retrieves the most relevant context from your data before passing it to the LLM.
+
+* **Integration & Tools**
+  It provides APIs to integrate LLMs with external tools (SQL databases, vector stores, knowledge graphs), making applications like chatbots, Q\&A assistants, or research agents much easier to build.
+
+* **Use Cases**
+
+  * Build **chatbots** over your company’s internal docs.
+  * Create **knowledge assistants** for customer support.
+  * Enable **semantic search** across unstructured data.
+  * Power **workflow automation** where LLMs need structured context.
+
+👉 In short: **LlamaIndex is a “middleware” layer that connects your data with LLMs so they can understand, retrieve, and reason over it efficiently.**
+
+
+The most commonly used CUDA versions are 11.8 and 12.1.
+
+For CNN models in PyTorch/TensorFlow, the supported computation methods are different.
+
+Problem:
+The inference platform of the model and the model’s format can both have some impact on the model’s performance (normally very small). The reason is that a model is essentially a matrix (a collection of parameters). The calculation precision and computation methods depend on the inference platform and the way the model parameters are stored.
+
+Once a model crosses platforms, its precision will undergo some changes.

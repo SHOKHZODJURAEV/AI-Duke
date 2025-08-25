@@ -1,0 +1,11 @@
+vLLM is an **open-source library for efficient LLM (Large Language Model) inference and serving**. It’s designed to make running and deploying large models faster, cheaper, and easier.
+
+Here’s what it’s mainly used for:
+
+1. **Efficient LLM Inference** – It optimizes how models process requests so they can generate text faster and use less memory.
+2. **Continuous Batching** – Unlike traditional serving, vLLM can dynamically batch incoming requests of different lengths together, greatly improving throughput.
+3. **PagedAttention** – Its core innovation: a memory-efficient attention mechanism that avoids wasting GPU memory, allowing bigger models to run on smaller GPUs.
+4. **Model Serving** – It can serve models (like LLaMA, GPT, Falcon, MPT, etc.) through APIs, making it easier to integrate into applications.
+5. **Compatibility** – Works with Hugging Face models and integrates with tools like **OpenAI API format**, **LangChain**, and **Ray**.
+
+👉 In short: **vLLM is used to run large language models efficiently in production, with higher throughput, lower latency, and better GPU memory usage compared to standard frameworks like Hugging Face Transformers.**
