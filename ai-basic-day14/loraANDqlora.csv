@@ -1,0 +1,74 @@
+LoRA and QLoRA
+
+LoRA: LoRA is a technique for fine-tuning large language models. It uses a low-rank approximation method to adapt models with billions of parameters (such as GPT-3) to specific tasks or domains.
+
+QLoRA: QLoRA is an efficient fine-tuning method for large language models that significantly reduces memory usage while maintaining the performance of full 16-bit fine-tuning. It achieves this by backpropagating gradients into low-rank adapters within a fixed, 4-bit quantized pre-trained language model.
+
+Here’s the practical breakdown of LoRA vs QLoRA in simple ML terms:
+
+1. LoRA (Low-Rank Adaptation)
+Main idea: Instead of updating all billions of parameters in a large model, insert small trainable adapter layers that capture the necessary changes.
+
+Why: Saves memory and computation because you’re only training a tiny fraction of the model.
+
+Memory usage: Lower than full fine-tuning, but still stores weights in full precision (e.g., 16-bit or 32-bit).
+
+When to use: When you have enough GPU memory but still want a more efficient fine-tuning than retraining the whole model.
+
+2. QLoRA (Quantized LoRA)
+Main idea: Take LoRA and make it even more memory-efficient by first quantizing (compressing) the base model to 4-bit precision, then applying LoRA adapters.
+
+Why: Large language models can be huge—quantization makes them much smaller and reduces GPU RAM requirements while keeping performance almost identical.
+
+Memory usage: Far less than LoRA—can fine-tune 65B+ parameter models on a single high-end GPU.
+
+When to use: When you have limited GPU memory but still want high-quality fine-tuning.
+
+Key Differences
+Feature	LoRA	QLoRA
+Base model size	Full precision (16/32-bit)	4-bit quantized
+GPU memory needed	Medium	Very low
+Training speed	Faster than full fine-tuning, slower than QLoRA	Fastest
+Performance drop	Minimal	Minimal if done right
+Best use case	Good GPU budget	Tight GPU budget
+
+💡 In short:
+
+LoRA = Smaller training footprint, keeps base model in normal precision.
+
+QLoRA = Even smaller footprint by compressing base model to 4-bit, making it possible to fine-tune very large models on modest hardware.
+
+
+Here’s the practical breakdown of LoRA vs QLoRA in simple ML terms:
+
+1. LoRA (Low-Rank Adaptation)
+Main idea: Instead of updating all billions of parameters in a large model, insert small trainable adapter layers that capture the necessary changes.
+
+Why: Saves memory and computation because you’re only training a tiny fraction of the model.
+
+Memory usage: Lower than full fine-tuning, but still stores weights in full precision (e.g., 16-bit or 32-bit).
+
+When to use: When you have enough GPU memory but still want a more efficient fine-tuning than retraining the whole model.
+
+2. QLoRA (Quantized LoRA)
+Main idea: Take LoRA and make it even more memory-efficient by first quantizing (compressing) the base model to 4-bit precision, then applying LoRA adapters.
+
+Why: Large language models can be huge—quantization makes them much smaller and reduces GPU RAM requirements while keeping performance almost identical.
+
+Memory usage: Far less than LoRA—can fine-tune 65B+ parameter models on a single high-end GPU.
+
+When to use: When you have limited GPU memory but still want high-quality fine-tuning.
+
+Key Differences
+Feature	LoRA	QLoRA
+Base model size	Full precision (16/32-bit)	4-bit quantized
+GPU memory needed	Medium	Very low
+Training speed	Faster than full fine-tuning, slower than QLoRA	Fastest
+Performance drop	Minimal	Minimal if done right
+Best use case	Good GPU budget	Tight GPU budget
+
+💡 In short:
+
+LoRA = Smaller training footprint, keeps base model in normal precision.
+
+QLoRA = Even smaller footprint by compressing base model to 4-bit, making it possible to fine-tune very large models on modest hardware.
